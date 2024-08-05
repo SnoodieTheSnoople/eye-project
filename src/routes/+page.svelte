@@ -11,8 +11,9 @@
 	<div class='flex justify-center items-center'>
 		<Button>Get Started</Button>
 	</div>
-	<div>
-		<h2 class='flex justify-center items-center font-bold'>About</h2>
+	
+	<div class='space-y-4'>
+		<h2 class='flex justify-center items-center font-bold text-2xl'>About</h2>
 		<p class='text-center'>Smart Readers is a tool that allows you to understand your reading glasses prescription.</p>
 	</div>
 </div>
