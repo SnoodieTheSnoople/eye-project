@@ -1,5 +1,6 @@
 <script>
-	import { Button } from "flowbite-svelte";
+	import Modal from "$lib/components/Modal.svelte";
+import { Button } from "flowbite-svelte";
 </script>
 <!-- 
 <h1>Welcome to SvelteKit</h1>
@@ -9,7 +10,8 @@
 	<h1 class='flex justify-center items-center font-bold text-4xl'>Welcome to Smart Readers!</h1>
 
 	<div class='flex justify-center items-center'>
-		<Button>Get Started</Button>
+		<!-- <Button>Get Started</Button> -->
+		<Modal/>
 	</div>
 	
 	<div class='space-y-4'>
